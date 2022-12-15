@@ -25,6 +25,18 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   style: TextStyle(fontSize: 30),
                 ),
                 const SizedBox(height: 30),
+                InkWell(
+                  child: CircleAvatar(
+                    radius: 70,
+                  ),
+                ),
+                const SizedBox(height: 10),
+
+                TextFormField(
+                  textInputAction: TextInputAction.next,
+                  decoration: InputDecoration(hintText: "Enter your FullName"),
+                ),
+                const SizedBox(height: 10),
                 TextFormField(
                   textInputAction: TextInputAction.next,
                   decoration: InputDecoration(hintText: "Enter your Email"),
